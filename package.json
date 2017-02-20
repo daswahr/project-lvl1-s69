@@ -1,0 +1,24 @@
+{
+  "name": "localrep",
+  "version": "1.0.2",
+  "devDependencies": {
+"babel-cli": "latest",
+"babel-core": "latest",
+"babel-preset-env": "latest",
+"babel-preset-stage-0": "latest"
+  },
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC",
+   "bin": {
+    "brain-games": "dist/bin/brain-games.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "babel-node": "babel-node",
+   "build": "NODE_ENV=production babel src --out-dir dist --source-maps inline",
+   "prepublish": "npm run build"}
+
+}
+
