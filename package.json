@@ -1,12 +1,13 @@
 {
   "name": "braing123",
-  "version": "1.0.1",
+  "version": "1.0.8",
   "devDependencies": {
     "babel-cli": "*",
     "babel-core": "*",
     "babel-preset-env": "*",
     "babel-eslint": "*",
     "eslint": "*",
+    "babel-preset-es2015": "*",
     "eslint-config-airbnb-base": "*",
     "eslint-plugin-import": "*",
     "babel-preset-stage-0": "*"
@@ -16,7 +17,7 @@
   "author": "",
   "license": "ISC",
   "bin": {
-    "brain-games": "dist/bin/brain-games.js"
+    "braing123": "dist/bin/brain-games.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -27,12 +28,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/daswahr/project-lvl1-s17.git"
+    "url": "git+https://github.com/daswahr/project-lvl1-s69"
   },
   "bugs": {
-    "url": "https://github.com/daswahr/project-lvl1-s17/issues"
+    "url": "https://github.com/daswahr/project-lvl1-s69/issues"
   },
-  "homepage": "https://github.com/daswahr/project-lvl1-s17#readme",
+  "homepage": "https://github.com/daswahr/project-lvl1-s69#readme",
   "dependencies": {
     "babel": "^6.5.2",
     "readline-sync": "^1.4.6"
