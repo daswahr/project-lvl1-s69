@@ -34,6 +34,7 @@
   },
   "homepage": "https://github.com/daswahr/project-lvl1-s17#readme",
   "dependencies": {
-    "babel": "^6.5.2"
+    "babel": "^6.5.2",
+    "readline-sync": "^1.4.6"
   }
 }
