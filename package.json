@@ -1,24 +1,39 @@
 {
   "name": "localrep",
-  "version": "1.0.2",
+  "version": "1.0.7",
   "devDependencies": {
-"babel-cli": "latest",
-"babel-core": "latest",
-"babel-preset-env": "latest",
-"babel-preset-stage-0": "latest"
+    "babel-cli": "*",
+    "babel-core": "*",
+    "babel-preset-env": "*",
+    "babel-eslint": "*",
+    "eslint": "*",
+    "eslint-config-airbnb-base": "*",
+    "eslint-plugin-import": "*",
+    "babel-preset-stage-0": "*"
   },
-  "description": "",
+  "description": "```\r make install\r ```",
   "main": "index.js",
   "author": "",
   "license": "ISC",
-   "bin": {
+  "bin": {
     "brain-games": "dist/bin/brain-games.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "babel-node": "babel-node",
-   "build": "NODE_ENV=production babel src --out-dir dist --source-maps inline",
-   "prepublish": "npm run build"}
-
+    "eslint": "eslint",
+    "build": "NODE_ENV=production babel src --out-dir dist --source-maps inline",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daswahr/project-lvl1-s17.git"
+  },
+  "bugs": {
+    "url": "https://github.com/daswahr/project-lvl1-s17/issues"
+  },
+  "homepage": "https://github.com/daswahr/project-lvl1-s17#readme",
+  "dependencies": {
+    "babel": "^6.5.2"
+  }
 }
-
