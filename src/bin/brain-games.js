@@ -1,6 +1,6 @@
 #!/usr/bin/node
-import { fname } from '../';
+import { UserName } from '../';
 
 console.log('*Welcome to the Brain Games!*');
 
-fname();
+UserName();
