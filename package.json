@@ -1,6 +1,6 @@
 {
   "name": "braing123",
-  "version": "1.0.13",
+  "version": "1.0.15",
   "devDependencies": {
     "babel-cli": "*",
     "babel-core": "*",
@@ -18,7 +18,8 @@
   "license": "ISC",
   "bin": {
     "brain-even": "dist/bin/brain-even.js",
-    "brain-calc": "dist/bin/brain-calc.js"
+    "brain-calc": "dist/bin/brain-calc.js",
+    "brain-gcd": "dist/bin/brain-gcd.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
