@@ -1,7 +1,7 @@
 import game from '../';
 
 const random = () => {
-  return Math.floor(Math.random() * 100) + 1;;
+  return Math.floor(Math.random() * 100) + 1;
 };
 
 const task = 'What is the result of the expression?';
@@ -18,15 +18,15 @@ const startGame = () => {
   let correctAnswers = 0;
   let question = '';
   switch (operations[numOperation]) {
-    case '+' : 
+    case '+': 
      correctAnswers = num + num2;
       question = `${num} + ${num2}`;
       break;
-    case '-' : 
+    case '-':  
     correctAnswers = num - num2;
       question = `${num} - ${num2}`;
       break;
-    case '*' : 
+    case '*': 
     correctAnswers = num * num2;
       question = `${num} * ${num2}`;
       break;
