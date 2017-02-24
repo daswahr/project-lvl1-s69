@@ -1,8 +1,6 @@
 import game from '../';
 
-const random = () => {
-  return Math.floor(Math.random() * 100) + 1;
-};
+const random = () => (Math.floor(Math.random() * 100) + 1);
 
 const task = 'What is the result of the expression?';
 
