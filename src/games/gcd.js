@@ -1,7 +1,7 @@
 import game from '../';
 
 const random = () => {
-  return Math.floor(Math.random() * 100) + 1;;
+  return Math.floor(Math.random() * 100) + 1;
 };
 
 const task = 'Find the greatest common divisor of given numbers.';
