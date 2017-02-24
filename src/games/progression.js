@@ -1,8 +1,6 @@
 import game from '../';
 
-const random = () => {
-  return Math.floor(Math.random() * 7) + 1;
-};
+const random = () => (Math.floor(Math.random() * 7) + 1);
 
 const newProgression = () => {
   const first = random();
