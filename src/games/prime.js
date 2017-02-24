@@ -1,7 +1,7 @@
 import game from '../';
 
 const random = () => {
-  return Math.floor(Math.random() * 100) + 1;;
+  return Math.floor(Math.random() * 100) + 1;
 };
 
 const task = 'Answer "yes" if number is prime otherwise answer "no"';
