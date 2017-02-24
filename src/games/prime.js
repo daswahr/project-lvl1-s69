@@ -1,4 +1,4 @@
-import game from './';
+import game from '../';
 
 const random = () => {
   return Math.floor(Math.random() * 100) + 1;;
