@@ -19,15 +19,15 @@ const startGame = () => {
   let question = '';
   switch (operations[numOperation]) {
     case '+':
-     correctAnswers = num + num2;
+      correctAnswers = num + num2;
       question = `${num} + ${num2}`;
       break;
     case '-':
-    correctAnswers = num - num2;
+      correctAnswers = num - num2;
       question = `${num} - ${num2}`;
       break;
     case '*':
-    correctAnswers = num * num2;
+      correctAnswers = num * num2;
       question = `${num} * ${num2}`;
       break;
     default: break;
