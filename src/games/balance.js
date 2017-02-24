@@ -1,4 +1,4 @@
-import game from './';
+import game from '../';
 
 const random = () => {
   const iter = (acc) => {
