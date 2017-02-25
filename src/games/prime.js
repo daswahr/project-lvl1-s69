@@ -8,16 +8,16 @@ const isPrime = (n1) => {
   let start = 2;
   while (start <= Math.sqrt(n1)) {
     if (n1 % start < 1) {
-      return 'no';
+      return false;
     }
     start += 1;
   }
-  return 'yes';
+  return n1 > 1;
 };
 
 const startGame = () => {
   const num = random();
-  const correctAnswers = isPrime(num);
+  const correctAnswers = isPrime(num) ? 'yes' : 'no';
   const question = `${num}`;
   return [question, correctAnswers];
 };

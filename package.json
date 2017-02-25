@@ -1,6 +1,6 @@
 {
   "name": "braing123",
-  "version": "1.0.17",
+  "version": "1.0.19",
   "devDependencies": {
     "babel-cli": "*",
     "babel-core": "*",
